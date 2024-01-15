@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&family=Overpass:wght@400;700&display=swap');
+
+html{
+    height: 100%;
+}
+
+*{
+    font-family: "Overpass", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(216, 12%, 8%);
+    align-items: center;    
+    justify-content: center;
+    display:flex;
+}
+
+.container{
+        
+    background-color: hsl(213, 19%, 18%);
+    border-radius:20px;   
+    height: 350px;
+    max-width: 350px;
+    margin: 50px;
+    
+       
+}
+
+.first-card{
+    margin: 30px;
+    
+    background-color: hsl(213, 19%, 18%); 
+       
+}
+.star-card{
+    background-color: hsl(217, 12%, 63%);
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 18px;
+}
+
+.star-card img{
+    
+    width: 15px;
+    
+       
+}
+
+.question-card{
+    color: white;
+    font-size: 21px;
+    margin-bottom: 20px;
+}.text-card{
+    color: lightgray;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+
+
+.rating-card{
+  display: flex;
+    
+    justify-content: space-between;
+    margin-bottom: 22px;
+    
+    
+}
+
+.rating-card-number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    
+    color: lightgray;
+    margin-bottom: 10px;
+    border-radius: 50%;     
+    background-color: hsl(216, 12%, 54%); 
+
+}
+
+.rating-card-number:hover{
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    cursor: pointer;
+}
+.mySubmit{
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    border: none;
+    color: white;
+}
+
+.mySubmit:hover{
+    background-color: white;
+    cursor: pointer;
+    color: hsl(25, 97%, 53%);
+}
+
+
+
+
+.second-card{
+    display: none;
+}
+
+
